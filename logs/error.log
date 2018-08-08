@@ -1,0 +1,268 @@
+debug: Input Data:{"category_name":"Action","parent_category_id":"1"} sessionId=Q1wTyRaYrsjvK7SD-cyQyxq5KZQWOscl
+debug: Input Data:{"category_name":"Action","parent_category_id":"1"} sessionId=eY4gutW7FOSmmWeAnhoxlk1aZPsLtnY8
+debug: Stored Data:{"child_categories":[],"_id":"5b6a85d63781f02e6893929c","category_name":"Action","id":10,"__v":0} sessionId=eY4gutW7FOSmmWeAnhoxlk1aZPsLtnY8
+debug: Input Data:{"category_name":"Action","parent_category_id":"1"} sessionId=1rKIn6KpLe_HvreUQ2bp9VJN2qx7s7cL
+debug: Stored Data:{"child_categories":[],"_id":"5b6a862b716e342ecde41404","category_name":"Action","id":11,"__v":0} sessionId=1rKIn6KpLe_HvreUQ2bp9VJN2qx7s7cL
+debug: Input Data:{"category_name":"Action","parent_category_id":"1"} sessionId=1rKIn6KpLe_HvreUQ2bp9VJN2qx7s7cL
+debug: Input Data:{"id":"1","child_category_id":11} sessionId=1rKIn6KpLe_HvreUQ2bp9VJN2qx7s7cL
+debug: Input Data:{"category_name":"Action","parent_category_id":"1"} sessionId=t-UySwlbOW6dKdf8oiWvMalkYSBmFSWX
+debug: Stored Data:{"child_categories":[],"_id":"5b6a86701e88ac2f574a07cb","category_name":"Action","id":12,"__v":0} sessionId=t-UySwlbOW6dKdf8oiWvMalkYSBmFSWX
+debug: Input Data:{"category_name":"Action","parent_category_id":"1"} sessionId=t-UySwlbOW6dKdf8oiWvMalkYSBmFSWX
+debug: Input Data:{"id":"1","child_category_id":12} sessionId=t-UySwlbOW6dKdf8oiWvMalkYSBmFSWX
+debug: Input Data:{"category_name":"Action","parent_category_id":"1"} sessionId=yBXQJr5DI7mKJ_k3jqRbRlCdaipisWk7
+debug: Stored Data:{"child_categories":[],"_id":"5b6a873b5780ee301cb2abfc","category_name":"Action","id":13,"__v":0} sessionId=yBXQJr5DI7mKJ_k3jqRbRlCdaipisWk7
+debug: Input Data:{"category_name":"Action","parent_category_id":"1"} sessionId=yBXQJr5DI7mKJ_k3jqRbRlCdaipisWk7
+debug: Input Data:{"id":"1","child_category_id":13} sessionId=yBXQJr5DI7mKJ_k3jqRbRlCdaipisWk7
+debug: Input Data:{"category_name":"Action","parent_category_id":"1"} sessionId=qAcFa77K-KbKJn1DBCHpsqD0Fbs6z5WV
+debug: Stored Data:{"child_categories":[],"_id":"5b6a87857c8d31304f12c522","category_name":"Action","id":14,"__v":0} sessionId=qAcFa77K-KbKJn1DBCHpsqD0Fbs6z5WV
+debug: Input Data:{"category_name":"Action","parent_category_id":"1"} sessionId=qAcFa77K-KbKJn1DBCHpsqD0Fbs6z5WV
+debug: Input Data:{"id":"1","child_category_id":14} sessionId=qAcFa77K-KbKJn1DBCHpsqD0Fbs6z5WV
+error:  message=Cast to ObjectId failed for value "1" at path "_id" for model "Category", stack=CastError: Cast to ObjectId failed for value "1" at path "_id" for model "Category"
+    at new CastError (/var/www/html/rest-api/node_modules/mongoose/lib/error/cast.js:29:11)
+    at ObjectId.cast (/var/www/html/rest-api/node_modules/mongoose/lib/schema/objectid.js:155:13)
+    at ObjectId.SchemaType.applySetters (/var/www/html/rest-api/node_modules/mongoose/lib/schematype.js:740:12)
+    at ObjectId.SchemaType._castForQuery (/var/www/html/rest-api/node_modules/mongoose/lib/schematype.js:1129:15)
+    at ObjectId.SchemaType.castForQuery (/var/www/html/rest-api/node_modules/mongoose/lib/schematype.js:1119:15)
+    at ObjectId.SchemaType.castForQueryWrapper (/var/www/html/rest-api/node_modules/mongoose/lib/schematype.js:1098:15)
+    at cast (/var/www/html/rest-api/node_modules/mongoose/lib/cast.js:303:32)
+    at model.Query.Query.cast (/var/www/html/rest-api/node_modules/mongoose/lib/query.js:3810:12)
+    at model.Query.Query._castConditions (/var/www/html/rest-api/node_modules/mongoose/lib/query.js:1603:10)
+    at model.Query.Query._findOne (/var/www/html/rest-api/node_modules/mongoose/lib/query.js:1834:8)
+    at process.nextTick (/var/www/html/rest-api/node_modules/kareem/index.js:333:33)
+    at process._tickCallback (internal/process/next_tick.js:61:11), name=CastError, stringValue="1", kind=ObjectId, value=1, path=_id, reason=undefined, model=function model(doc, fields, skipId) {
+      model.hooks.execPreSync('createModel', doc);
+      if (!(this instanceof model)) {
+        return new model(doc, fields, skipId);
+      }
+      Model.call(this, doc, fields, skipId);
+    }, sessionId=qAcFa77K-KbKJn1DBCHpsqD0Fbs6z5WV
+debug: Input Data:{"category_name":"Action","parent_category_id":"1"} sessionId=JUhAu1vcAmenXcXSg3j-biIsyywQEGSI
+debug: Stored Data:{"child_categories":[],"_id":"5b6a8830fe39c730f6128205","category_name":"Action","id":15,"__v":0} sessionId=JUhAu1vcAmenXcXSg3j-biIsyywQEGSI
+debug: Input Data:{"category_name":"Action","parent_category_id":"1"} sessionId=JUhAu1vcAmenXcXSg3j-biIsyywQEGSI
+debug: Input Data:{"id":"1","child_category_id":15} sessionId=JUhAu1vcAmenXcXSg3j-biIsyywQEGSI
+debug: Input Data:{"category_name":"Action","parent_category_id":"1"} sessionId=c7X7HviroECEKez0SMvbNdXTKLCHmm5p
+debug: Input Data:{"category_name":"Action","parent_category_id":"1"} sessionId=c7X7HviroECEKez0SMvbNdXTKLCHmm5p
+debug: Stored Data:{"child_categories":[],"_id":"5b6a887a431c0d315f8b54ca","category_name":"Action","id":16,"__v":0} sessionId=c7X7HviroECEKez0SMvbNdXTKLCHmm5p
+debug: Input Data:{"category_name":"Action","parent_category_id":"1"} sessionId=3nFYjTLIR6pfoT9M1oMBkNkrMbChu34W
+error:  message=Cast to ObjectId failed for value "1" at path "_id" for model "Category", stack=CastError: Cast to ObjectId failed for value "1" at path "_id" for model "Category"
+    at new CastError (/var/www/html/rest-api/node_modules/mongoose/lib/error/cast.js:29:11)
+    at ObjectId.cast (/var/www/html/rest-api/node_modules/mongoose/lib/schema/objectid.js:155:13)
+    at ObjectId.SchemaType.applySetters (/var/www/html/rest-api/node_modules/mongoose/lib/schematype.js:740:12)
+    at ObjectId.SchemaType._castForQuery (/var/www/html/rest-api/node_modules/mongoose/lib/schematype.js:1129:15)
+    at ObjectId.SchemaType.castForQuery (/var/www/html/rest-api/node_modules/mongoose/lib/schematype.js:1119:15)
+    at ObjectId.SchemaType.castForQueryWrapper (/var/www/html/rest-api/node_modules/mongoose/lib/schematype.js:1098:15)
+    at cast (/var/www/html/rest-api/node_modules/mongoose/lib/cast.js:303:32)
+    at model.Query.Query.cast (/var/www/html/rest-api/node_modules/mongoose/lib/query.js:3810:12)
+    at model.Query.Query._castConditions (/var/www/html/rest-api/node_modules/mongoose/lib/query.js:1603:10)
+    at model.Query.Query._findOne (/var/www/html/rest-api/node_modules/mongoose/lib/query.js:1834:8)
+    at process.nextTick (/var/www/html/rest-api/node_modules/kareem/index.js:333:33)
+    at process._tickCallback (internal/process/next_tick.js:61:11), name=CastError, stringValue="1", kind=ObjectId, value=1, path=_id, reason=undefined, model=function model(doc, fields, skipId) {
+      model.hooks.execPreSync('createModel', doc);
+      if (!(this instanceof model)) {
+        return new model(doc, fields, skipId);
+      }
+      Model.call(this, doc, fields, skipId);
+    }, sessionId=3nFYjTLIR6pfoT9M1oMBkNkrMbChu34W
+debug: Input Data:{"category_name":"Action","parent_category_id":"1"} sessionId=1gAnoLKzokOfidMzQIjNuGRbkCENU7I-
+debug: Category Data:{"child_categories":[],"_id":"5b69677f4104f448d8438253","category_name":"Games","id":1,"__v":0} sessionId=1gAnoLKzokOfidMzQIjNuGRbkCENU7I-
+debug: Input Data:{"category_name":"Action","parent_category_id":"1"} sessionId=1gAnoLKzokOfidMzQIjNuGRbkCENU7I-
+debug: Category Data:{"child_categories":[18],"_id":"5b69677f4104f448d8438253","category_name":"Games","id":1,"__v":1} sessionId=1gAnoLKzokOfidMzQIjNuGRbkCENU7I-
+debug: Input Data:{"category_name":"Action","parent_category_id":"1"} sessionId=1gAnoLKzokOfidMzQIjNuGRbkCENU7I-
+debug: Category Data:{"child_categories":[18,19],"_id":"5b69677f4104f448d8438253","category_name":"Games","id":1,"__v":2} sessionId=1gAnoLKzokOfidMzQIjNuGRbkCENU7I-
+debug: Input Data:{"category_name":"Action","parent_category_id":"1"} sessionId=xhS_0g0fyC36NR0UQH13nesJsRFQha7r
+debug: Post Data:{"category_name":"Action","parent_category_id":"1"} sessionId=xhS_0g0fyC36NR0UQH13nesJsRFQha7r
+debug: Category Data:{"child_categories":[18,19,20],"_id":"5b69677f4104f448d8438253","category_name":"Games","id":1,"__v":3} sessionId=xhS_0g0fyC36NR0UQH13nesJsRFQha7r
+debug: Input Data:{"id":"1","child_category_id":21} sessionId=xhS_0g0fyC36NR0UQH13nesJsRFQha7r
+debug: Input Data:{"category_name":"Action","parent_category_id":"1"} sessionId=E0kieHeA29xGDxV5qOOaQ4YGuNqyFAj2
+debug: Category Data:{"child_categories":[18,19,20,21],"_id":"5b69677f4104f448d8438253","category_name":"Games","id":1,"__v":4} sessionId=E0kieHeA29xGDxV5qOOaQ4YGuNqyFAj2
+debug: Post Data:{"category_name":"Action","parent_category_id":"1"} sessionId=E0kieHeA29xGDxV5qOOaQ4YGuNqyFAj2
+debug: Input Data:{"id":"1","child_category_id":22} sessionId=E0kieHeA29xGDxV5qOOaQ4YGuNqyFAj2
+debug: Input Data:{"category_name":"","parent_category_id":"1"} sessionId=E0kieHeA29xGDxV5qOOaQ4YGuNqyFAj2
+debug: Post Data:{"category_name":"","parent_category_id":"1"} sessionId=E0kieHeA29xGDxV5qOOaQ4YGuNqyFAj2
+debug: Input Data:{"category_name":"","parent_category_id":"1"} sessionId=zdiVuD3pEqvqLyX1dM2qtPOaT-OWsYC5
+debug: Post Data:{"category_name":"","parent_category_id":"1"} sessionId=zdiVuD3pEqvqLyX1dM2qtPOaT-OWsYC5
+debug: Input Data:{"category_name":"","parent_category_id":"1"} sessionId=2d0v6NrWKMa66My4TzS8_DmT6T-_EBz9
+debug: Post Data:{"category_name":"","parent_category_id":"1"} sessionId=2d0v6NrWKMa66My4TzS8_DmT6T-_EBz9
+debug: Input Data:{"category_name":"","parent_category_id":"1"} sessionId=2A4wQ1Kj3mGrnqdlIwtb4HflueRuviS9
+debug: Post Data:{"category_name":"","parent_category_id":"1"} sessionId=2A4wQ1Kj3mGrnqdlIwtb4HflueRuviS9
+debug: Input Data:{"category_name":"Arcade","parent_category_id":"1"} sessionId=2A4wQ1Kj3mGrnqdlIwtb4HflueRuviS9
+debug: Post Data:{"category_name":"Arcade","parent_category_id":"1"} sessionId=2A4wQ1Kj3mGrnqdlIwtb4HflueRuviS9
+debug: Input Data:{"id":"1","child_category_id":23} sessionId=2A4wQ1Kj3mGrnqdlIwtb4HflueRuviS9
+debug: Category Data:{"child_categories":[18,19,20,21,22],"_id":"5b69677f4104f448d8438253","category_name":"Games","id":1,"__v":5} sessionId=2A4wQ1Kj3mGrnqdlIwtb4HflueRuviS9
+debug: Inside get all categories sessionId=SiXaI3TjJPf1VIyIQS_HRAtblXsbDh0v
+debug: Inside get all categories sessionId=y3iHCycrd2DjgCNyQW9hXkMb7hgE4Wji
+debug: Inside get all categories sessionId=seLQyG3R69cepIiu8nmbD8z5ZLsoadlJ
+debug: Inside get all categories sessionId=3HxrLSQqsKGXhvcBPc36bnDTyEHc9UjS
+debug: Inside get all categories sessionId=mZsfc3x2bBQOnijX9rkXsM_oy8AL4jvF
+debug: Inside get all categories sessionId=P3O6rVQt6SdRjwSOXiURRlujgU70j4Fy
+debug: Inside get all categories sessionId=jsHl3TWwQ_UAi61AfKc3EePbPeO0prt-
+debug: Inside get all categories sessionId=1qjiLPP-5XGdQEiJfu0oau00D0bXfsl2
+debug: Inside get all categories sessionId=S4DkBRm1T14piqRf5spDPzS-iNDSizNP
+debug: Inside get all categories sessionId=NUiwxRW_cGC6TcWLH-MhBzsexScjpL_z
+debug: Inside get all categories sessionId=NUiwxRW_cGC6TcWLH-MhBzsexScjpL_z
+debug: Inside get all categories sessionId=Q9_DkT29KSoxtAfQF27Aeg-zdXy900Mc
+debug: Inside get all categories sessionId=C8liRL1GsQxqgHdW8np2caMJK6oEwPCy
+debug: isnide find sessionId=C8liRL1GsQxqgHdW8np2caMJK6oEwPCy
+debug: Inside get all categories sessionId=sRxDXIYvZCt59Ba69OGrXKdP7SsHvQZw
+debug: Inside get all categories sessionId=1Kvo5CTna6ox1-ZnpfPQgBQRfFw9UGPh
+debug: Input Data:{"product_name":"A","categories":"{11,12,13}","price":"20","total_quantity":"100"} sessionId=APJBU_UERHj4sZV2I9dU924xt2S8wwXc
+debug: Input Data:{"product_name":"A","categories":"{11,12,13}","price":"20","total_quantity":"100"} sessionId=pEiHZrOvW9mnS31ySUmRc9sEAKfIr3y-
+debug: Input Data:{"product_name":"A","categories":"{11,12,13}","price":"20","total_quantity":"100"} sessionId=vKmEXnjDiH_FMnWfGKupC9I8u5po03uD
+debug: Input Data:{"product_name":"A","categories":"{11,12,13}","price":"20","total_quantity":"100"} sessionId=rnA6Xes0LGKmg3ofr3S7IhEGlFU2d8jF
+debug: Input Data:{"product_name":"A","categories":"{11,12,13}","price":"20","total_quantity":"100"} sessionId=62O-dDCA5QLDfVUcdJP_Gf0VBtSRUbV0
+debug: Input Data:{"product_name":"A","categories":"{11,12,13}","price":"20","total_quantity":"100"} sessionId=Kfi3EqcnItb2-2GgYwDvxF-q0D4js44j
+debug: Input Data:{"product_name":"A","categories":"{11,12,13}","price":"20","total_quantity":"100"} sessionId=iAJd3X4wp0eD_ucn8-OnlD6xeSXtkoy_
+error: Error in storing product:MongoError: E11000 duplicate key error index: heady.products.$product_name_1 dup key: { : "A" } sessionId=iAJd3X4wp0eD_ucn8-OnlD6xeSXtkoy_
+debug: Input Data:{"product_name":"A","categories":"{11,12,13}","price":"20","total_quantity":"100"} sessionId=f7YkNb0qGfSJyZLbCZgwIYbMV5Fzxhsa
+debug: Input Data:{"product_name":"A","categories":"\\{11,12,13\\}","price":"20","total_quantity":"100"} sessionId=rAv_AoM7T629hdWEELvnCX3TiGBYD-Lt
+debug: Inside get all categories sessionId=FgwiOqY4raij8nVDkA0PG0XUktR3OLti
+debug: Input Data:{"product_name":"A","categories":"[11, 12, 13]","price":"20","total_quantity":"100"} sessionId=3LGcLBf3fnRR04dOLllyFtv1s2hCbB-Z
+debug: JSON Data:11,12,13 sessionId=3LGcLBf3fnRR04dOLllyFtv1s2hCbB-Z
+error: Error in storing product:MongoError: E11000 duplicate key error index: heady.products.$product_name_1 dup key: { : "A" } sessionId=3LGcLBf3fnRR04dOLllyFtv1s2hCbB-Z
+debug: Input Data:{"product_name":"A","categories":"[11, 12, 13]","price":"20","total_quantity":"100"} sessionId=0AIJ592gcSE2ID6oSn1sigtWd01xXrQI
+error: Error in storing product:MongoError: E11000 duplicate key error index: heady.products.$product_name_1 dup key: { : "A" } sessionId=0AIJ592gcSE2ID6oSn1sigtWd01xXrQI
+debug: Input Data:{"product_name":"B","categories":"[11, 12, 13]","price":"20","total_quantity":"100"} sessionId=0AIJ592gcSE2ID6oSn1sigtWd01xXrQI
+debug: query :{"id":"5"} sessionId=aHVJxA6kEX941ljiByvKvJseXhqxwis8
+debug: query :{"categories":"11"} sessionId=aHVJxA6kEX941ljiByvKvJseXhqxwis8
+debug: query :{"categories":"11"} sessionId=2Yi_h2xwRPbiGRTG9KT4EXctjN_afb-D
+debug: query :{"categories":{"$eleMatch":{"$in":["11"]}}} sessionId=fdCHC5mglg8JYkUWi-Mx8U-hQFtcqhBO
+debug: query :{"categories":{"$in":["11"]}} sessionId=dzCxzOEXAW87eRVN-ucgJ_qq4iOSjo79
+debug: query :{"categories":{"$in":["11"]}} sessionId=uePiQ_XX_IzM7NmEOVwMDEe5JiT28kzI
+debug: query :{"categories":{"$in":["11"]}} sessionId=hEgv3v8-gxwHdTfkIXmVBNWpGY597PFD
+debug: query :{"categories":{"$in":["11"]}} sessionId=BvFlvI5pgczv2y3KaFgRYMevXNC9xugb
+debug: query :{"categories":{"$in":[11]}} sessionId=SAj1l8-Wri6_xhEyTg6qMbIfrq0okrSN
+debug: query :{"categories":{"$in":[12]}} sessionId=SAj1l8-Wri6_xhEyTg6qMbIfrq0okrSN
+debug: Input Data:{"product_name":"B","categories":"[11, 12, 13]","price":"20","total_quantity":"100","id":"1"} sessionId=Ab7_tBB9hDHMpdbuzkaMdBjRG2B-0oIe
+debug: Input Data:{"id":"1","product_name":"B","price":"20","total_quantity":"100","categories":[11,12,13]} sessionId=Ab7_tBB9hDHMpdbuzkaMdBjRG2B-0oIe
+debug: Product Data:{"categories":["{11,12,13}"],"_id":"5b6a972fbd075f453064a6da","product_name":"A","price":20,"total_quantity":100,"id":1,"__v":0} sessionId=Ab7_tBB9hDHMpdbuzkaMdBjRG2B-0oIe
+error:  message=E11000 duplicate key error index: heady.products.$product_name_1 dup key: { : "B" }, name=MongoError, driver=true, stack=MongoError: E11000 duplicate key error index: heady.products.$product_name_1 dup key: { : "B" }
+    at Function.MongoError.create (/var/www/html/rest-api/node_modules/mongodb-core/lib/error.js:49:10)
+    at toError (/var/www/html/rest-api/node_modules/mongodb/lib/utils.js:149:22)
+    at coll.s.topology.update (/var/www/html/rest-api/node_modules/mongodb/lib/operations/collection_ops.js:1350:39)
+    at /var/www/html/rest-api/node_modules/mongodb-core/lib/connection/pool.js:531:18
+    at process._tickCallback (internal/process/next_tick.js:61:11), index=0, code=11000, errmsg=E11000 duplicate key error index: heady.products.$product_name_1 dup key: { : "B" }, sessionId=Ab7_tBB9hDHMpdbuzkaMdBjRG2B-0oIe
+error:  message=E11000 duplicate key error index: heady.products.$product_name_1 dup key: { : "B" }, name=MongoError, driver=true, stack=MongoError: E11000 duplicate key error index: heady.products.$product_name_1 dup key: { : "B" }
+    at Function.MongoError.create (/var/www/html/rest-api/node_modules/mongodb-core/lib/error.js:49:10)
+debug: Input Data:{"product_name":"B","categories":"[11, 12, 13]","price":"20","total_quantity":"100","id":"1"} sessionId=6tXVfIl4oCiFTh9X4tr1IhyvKXaW7DN3
+    at toError (/var/www/html/rest-api/node_modules/mongodb/lib/utils.js:149:22)
+debug: Input Data:{"id":"1","product_name":"B","price":"20","total_quantity":"100","categories":[11,12,13]} sessionId=6tXVfIl4oCiFTh9X4tr1IhyvKXaW7DN3
+    at coll.s.topology.update (/var/www/html/rest-api/node_modules/mongodb/lib/operations/collection_ops.js:1350:39)
+debug: Product Data:{"categories":["{11,12,13}"],"_id":"5b6a972fbd075f453064a6da","product_name":"A","price":20,"total_quantity":100,"id":1,"__v":0} sessionId=6tXVfIl4oCiFTh9X4tr1IhyvKXaW7DN3
+    at /var/www/html/rest-api/node_modules/mongodb-core/lib/connection/pool.js:531:18
+    at process._tickCallback (internal/process/next_tick.js:61:11), index=0, code=11000, errmsg=E11000 duplicate key error index: heady.products.$product_name_1 dup key: { : "B" }, sessionId=6tXVfIl4oCiFTh9X4tr1IhyvKXaW7DN3
+error:  message=E11000 duplicate key error index: heady.products.$product_name_1 dup key: { : "B" }, name=MongoError, driver=true, stack=MongoError: E11000 duplicate key error index: heady.products.$product_name_1 dup key: { : "B" }
+    at Function.MongoError.create (/var/www/html/rest-api/node_modules/mongodb-core/lib/error.js:49:10)
+    at toError (/var/www/html/rest-api/node_modules/mongodb/lib/utils.js:149:22)
+debug: Input Data:{"product_name":"B","categories":"[11, 12, 13]","price":"20","total_quantity":"100","id":"1"} sessionId=9bik8W0GkYUgmU-72q9YvGKdL6jN1IE1
+    at coll.s.topology.update (/var/www/html/rest-api/node_modules/mongodb/lib/operations/collection_ops.js:1350:39)
+debug: Input Data:{"id":"1","product_name":"B","price":"20","total_quantity":"100","categories":[11,12,13]} sessionId=9bik8W0GkYUgmU-72q9YvGKdL6jN1IE1
+    at /var/www/html/rest-api/node_modules/mongodb-core/lib/connection/pool.js:531:18
+debug: Product Data:{"categories":["{11,12,13}"],"_id":"5b6a972fbd075f453064a6da","product_name":"A","price":20,"total_quantity":100,"id":1,"__v":0} sessionId=9bik8W0GkYUgmU-72q9YvGKdL6jN1IE1
+    at process._tickCallback (internal/process/next_tick.js:61:11), index=0, code=11000, errmsg=E11000 duplicate key error index: heady.products.$product_name_1 dup key: { : "B" }, sessionId=9bik8W0GkYUgmU-72q9YvGKdL6jN1IE1
+error: Error updating product:{"name":"MongoError","message":"E11000 duplicate key error index: heady.products.$product_name_1 dup key: { : \"B\" }","driver":true,"index":0,"code":11000,"errmsg":"E11000 duplicate key error index: heady.products.$product_name_1 dup key: { : \"B\" }","sessionId":"9bik8W0GkYUgmU-72q9YvGKdL6jN1IE1"} sessionId=9bik8W0GkYUgmU-72q9YvGKdL6jN1IE1
+error:  message=E11000 duplicate key error index: heady.products.$product_name_1 dup key: { : "B" }, name=MongoError, driver=true, stack=MongoError: E11000 duplicate key error index: heady.products.$product_name_1 dup key: { : "B" }
+    at Function.MongoError.create (/var/www/html/rest-api/node_modules/mongodb-core/lib/error.js:49:10)
+debug: Input Data:{"product_name":"B","categories":"[11, 12, 13]","price":"20","total_quantity":"100","id":"1"} sessionId=zsa2pWhj31IEw4AiWGvE9ESBKui4Uc-0
+    at toError (/var/www/html/rest-api/node_modules/mongodb/lib/utils.js:149:22)
+debug: Input Data:{"id":"1","product_name":"B","price":"20","total_quantity":"100","categories":[11,12,13]} sessionId=zsa2pWhj31IEw4AiWGvE9ESBKui4Uc-0
+    at coll.s.topology.update (/var/www/html/rest-api/node_modules/mongodb/lib/operations/collection_ops.js:1350:39)
+debug: Product Data:{"categories":["{11,12,13}"],"_id":"5b6a972fbd075f453064a6da","product_name":"A","price":20,"total_quantity":100,"id":1,"__v":0} sessionId=zsa2pWhj31IEw4AiWGvE9ESBKui4Uc-0
+    at /var/www/html/rest-api/node_modules/mongodb-core/lib/connection/pool.js:531:18
+    at process._tickCallback (internal/process/next_tick.js:61:11), index=0, code=11000, errmsg=E11000 duplicate key error index: heady.products.$product_name_1 dup key: { : "B" }, sessionId=zsa2pWhj31IEw4AiWGvE9ESBKui4Uc-0
+error: Error updating product:{"name":"MongoError","message":"E11000 duplicate key error index: heady.products.$product_name_1 dup key: { : \"B\" }","driver":true,"index":0,"code":11000,"errmsg":"E11000 duplicate key error index: heady.products.$product_name_1 dup key: { : \"B\" }","sessionId":"zsa2pWhj31IEw4AiWGvE9ESBKui4Uc-0"} sessionId=zsa2pWhj31IEw4AiWGvE9ESBKui4Uc-0
+error:  message=E11000 duplicate key error index: heady.products.$product_name_1 dup key: { : "B" }, name=MongoError, driver=true, stack=MongoError: E11000 duplicate key error index: heady.products.$product_name_1 dup key: { : "B" }
+    at Function.MongoError.create (/var/www/html/rest-api/node_modules/mongodb-core/lib/error.js:49:10)
+    at toError (/var/www/html/rest-api/node_modules/mongodb/lib/utils.js:149:22)
+    at coll.s.topology.update (/var/www/html/rest-api/node_modules/mongodb/lib/operations/collection_ops.js:1350:39)
+debug: Product Data:{"categories":["{11,12,13}"],"_id":"5b6a972fbd075f453064a6da","product_name":"A","price":20,"total_quantity":100,"id":1,"__v":0} sessionId=cjxbpMTcgREIgSwbBDjL_STCTlQcSCqS
+    at /var/www/html/rest-api/node_modules/mongodb-core/lib/connection/pool.js:531:18
+    at process._tickCallback (internal/process/next_tick.js:61:11), index=0, code=11000, errmsg=E11000 duplicate key error index: heady.products.$product_name_1 dup key: { : "B" }, sessionId=cjxbpMTcgREIgSwbBDjL_STCTlQcSCqS
+error: Error updating product:{"name":"MongoError","message":"E11000 duplicate key error index: heady.products.$product_name_1 dup key: { : \"B\" }","driver":true,"index":0,"code":11000,"errmsg":"E11000 duplicate key error index: heady.products.$product_name_1 dup key: { : \"B\" }","sessionId":"cjxbpMTcgREIgSwbBDjL_STCTlQcSCqS"} sessionId=cjxbpMTcgREIgSwbBDjL_STCTlQcSCqS
+debug: Input Data:{"product_name":"B","categories":"[11, 12, 13]","price":"20","total_quantity":"100","id":"1"} sessionId=cjxbpMTcgREIgSwbBDjL_STCTlQcSCqS
+debug: Input Data:{"id":"1","product_name":"B","price":"20","total_quantity":"100","categories":[11,12,13]} sessionId=cjxbpMTcgREIgSwbBDjL_STCTlQcSCqS
+debug: Input Data:{"product_name":"A","categories":"[11, 12, 13]","price":"20","total_quantity":"100","id":"1"} sessionId=UiwtVtEjAfZmlxWRBdm5xwUdbneBp93z
+debug: Input Data:{"id":"1","product_name":"A","price":"20","total_quantity":"100","categories":[11,12,13]} sessionId=UiwtVtEjAfZmlxWRBdm5xwUdbneBp93z
+debug: Product Data:{"categories":["{11,12,13}"],"_id":"5b6a972fbd075f453064a6da","product_name":"A","price":20,"total_quantity":100,"id":1,"__v":0} sessionId=UiwtVtEjAfZmlxWRBdm5xwUdbneBp93z
+debug: query :{"id":"1"} sessionId=UiwtVtEjAfZmlxWRBdm5xwUdbneBp93z
+debug: query :{"categories":{"$in":[11]}} sessionId=UiwtVtEjAfZmlxWRBdm5xwUdbneBp93z
+debug: query :{"categories":{"$in":[12]}} sessionId=UiwtVtEjAfZmlxWRBdm5xwUdbneBp93z
+debug: query :{"id":"1"} sessionId=UiwtVtEjAfZmlxWRBdm5xwUdbneBp93z
+debug: Input Data:{"product_name":"A","categories":"[14]","price":"20","total_quantity":"100","id":"5"} sessionId=XV1YeiC5jDj7YgzsH_IBnei9rdpt-vIL
+debug: Input Data:{"id":"5","product_name":"A","price":"20","total_quantity":"100","categories":[14]} sessionId=XV1YeiC5jDj7YgzsH_IBnei9rdpt-vIL
+debug: Product Data:{"categories":[11,12,13],"_id":"5b6a99e61d6f3148f9459f62","product_name":"B","price":20,"total_quantity":100,"id":5,"__v":0} sessionId=XV1YeiC5jDj7YgzsH_IBnei9rdpt-vIL
+error:  message=E11000 duplicate key error index: heady.products.$product_name_1 dup key: { : "A" }, name=MongoError, driver=true, stack=MongoError: E11000 duplicate key error index: heady.products.$product_name_1 dup key: { : "A" }
+    at Function.MongoError.create (/var/www/html/rest-api/node_modules/mongodb-core/lib/error.js:49:10)
+    at toError (/var/www/html/rest-api/node_modules/mongodb/lib/utils.js:149:22)
+    at coll.s.topology.update (/var/www/html/rest-api/node_modules/mongodb/lib/operations/collection_ops.js:1350:39)
+    at /var/www/html/rest-api/node_modules/mongodb-core/lib/connection/pool.js:531:18
+    at process._tickCallback (internal/process/next_tick.js:61:11), index=0, code=11000, errmsg=E11000 duplicate key error index: heady.products.$product_name_1 dup key: { : "A" }, sessionId=XV1YeiC5jDj7YgzsH_IBnei9rdpt-vIL
+error: Error updating product:{"name":"MongoError","message":"E11000 duplicate key error index: heady.products.$product_name_1 dup key: { : \"A\" }","driver":true,"index":0,"code":11000,"errmsg":"E11000 duplicate key error index: heady.products.$product_name_1 dup key: { : \"A\" }","sessionId":"XV1YeiC5jDj7YgzsH_IBnei9rdpt-vIL"} sessionId=XV1YeiC5jDj7YgzsH_IBnei9rdpt-vIL
+debug: Input Data:{"product_name":"B","categories":"[14]","price":"20","total_quantity":"100","id":"5"} sessionId=XV1YeiC5jDj7YgzsH_IBnei9rdpt-vIL
+debug: Input Data:{"id":"5","product_name":"B","price":"20","total_quantity":"100","categories":[14]} sessionId=XV1YeiC5jDj7YgzsH_IBnei9rdpt-vIL
+debug: Product Data:{"categories":[11,12,13],"_id":"5b6a99e61d6f3148f9459f62","product_name":"B","price":20,"total_quantity":100,"id":5,"__v":0} sessionId=XV1YeiC5jDj7YgzsH_IBnei9rdpt-vIL
+debug: query :{"id":"5"} sessionId=XV1YeiC5jDj7YgzsH_IBnei9rdpt-vIL
+debug: Input Data:{"product_name":"B","categories":"[14]","price":"20","total_quantity":"100","id":"5"} sessionId=-kd39DM0wEhtEpURsuXxoZ1UZB5mZYV0
+debug: Input Data:{"id":"5","product_name":"B","price":"20","total_quantity":"100","categories":[14]} sessionId=-kd39DM0wEhtEpURsuXxoZ1UZB5mZYV0
+debug: Product Data:{"categories":[11,12,13],"_id":"5b6a99e61d6f3148f9459f62","product_name":"B","price":20,"total_quantity":100,"id":5,"__v":0} sessionId=-kd39DM0wEhtEpURsuXxoZ1UZB5mZYV0
+debug: Product object:{"categories":[11,12,13],"_id":"5b6a99e61d6f3148f9459f62","product_name":"B","price":20,"total_quantity":100,"id":5,"__v":0} sessionId=-kd39DM0wEhtEpURsuXxoZ1UZB5mZYV0
+debug: Input Data:{"product_name":"B","categories":"14","price":"20","total_quantity":"100","id":"5"} sessionId=-kd39DM0wEhtEpURsuXxoZ1UZB5mZYV0
+debug: Input Data:{"id":"5","product_name":"B","price":"20","total_quantity":"100","categories":14} sessionId=-kd39DM0wEhtEpURsuXxoZ1UZB5mZYV0
+debug: Product Data:{"categories":[11,12,13],"_id":"5b6a99e61d6f3148f9459f62","product_name":"B","price":20,"total_quantity":100,"id":5,"__v":0} sessionId=-kd39DM0wEhtEpURsuXxoZ1UZB5mZYV0
+debug: Product object:{"categories":[11,12,13],"_id":"5b6a99e61d6f3148f9459f62","product_name":"B","price":20,"total_quantity":100,"id":5,"__v":0} sessionId=-kd39DM0wEhtEpURsuXxoZ1UZB5mZYV0
+debug: query :{} sessionId=AX5V3auvcOzHxEIJz1LJUicrywMuIYmz
+debug: Input Data:{"product_name":"B","categories":"14","price":"20","total_quantity":"100","id":"5"} sessionId=PeWA1g4T5yyBc_VC5-GXEsE51uvqATEv
+debug: Input Data:{"id":"5","product_name":"B","price":"20","total_quantity":"100","categories":14} sessionId=PeWA1g4T5yyBc_VC5-GXEsE51uvqATEv
+debug: Product Data:{"categories":[11,12,13],"_id":"5b6a99e61d6f3148f9459f62","product_name":"B","price":20,"total_quantity":100,"id":5,"__v":0} sessionId=PeWA1g4T5yyBc_VC5-GXEsE51uvqATEv
+debug: Product object:{"categories":[11,12,13],"_id":"5b6a99e61d6f3148f9459f62","product_name":"B","price":20,"total_quantity":100,"id":5,"__v":0} sessionId=PeWA1g4T5yyBc_VC5-GXEsE51uvqATEv
+debug: Input Data:{"product_name":"B","categories":"[14]","price":"20","total_quantity":"100","id":"5"} sessionId=PeWA1g4T5yyBc_VC5-GXEsE51uvqATEv
+debug: Input Data:{"id":"5","product_name":"B","price":"20","total_quantity":"100","categories":[14]} sessionId=PeWA1g4T5yyBc_VC5-GXEsE51uvqATEv
+debug: Product Data:{"categories":[11,12,13],"_id":"5b6a99e61d6f3148f9459f62","product_name":"B","price":20,"total_quantity":100,"id":5,"__v":0} sessionId=PeWA1g4T5yyBc_VC5-GXEsE51uvqATEv
+debug: Product object:{"categories":[11,12,13],"_id":"5b6a99e61d6f3148f9459f62","product_name":"B","price":20,"total_quantity":100,"id":5,"__v":0} sessionId=PeWA1g4T5yyBc_VC5-GXEsE51uvqATEv
+debug: Input Data:{"product_name":"B","categories":"[14]","price":"20","total_quantity":"50","id":"5"} sessionId=PeWA1g4T5yyBc_VC5-GXEsE51uvqATEv
+debug: Input Data:{"id":"5","product_name":"B","price":"20","total_quantity":"50","categories":[14]} sessionId=PeWA1g4T5yyBc_VC5-GXEsE51uvqATEv
+debug: Product Data:{"categories":[11,12,13],"_id":"5b6a99e61d6f3148f9459f62","product_name":"B","price":20,"total_quantity":100,"id":5,"__v":0} sessionId=PeWA1g4T5yyBc_VC5-GXEsE51uvqATEv
+debug: Product object:{"categories":[11,12,13],"_id":"5b6a99e61d6f3148f9459f62","product_name":"B","price":20,"total_quantity":50,"id":5,"__v":0} sessionId=PeWA1g4T5yyBc_VC5-GXEsE51uvqATEv
+debug: query :{"id":"5"} sessionId=PeWA1g4T5yyBc_VC5-GXEsE51uvqATEv
+debug: Input Data:{"product_name":"B","categories":"14","price":"20","total_quantity":"50","id":"5"} sessionId=C5GaFNrN8b9PZX1BgB-dzZZwpqOLnYcx
+debug: Input Data:{"id":"5","product_name":"B","price":"20","total_quantity":"50","categories":14} sessionId=C5GaFNrN8b9PZX1BgB-dzZZwpqOLnYcx
+debug: Product Data:{"categories":[11,12,13],"_id":"5b6a99e61d6f3148f9459f62","product_name":"B","price":20,"total_quantity":50,"id":5,"__v":0} sessionId=C5GaFNrN8b9PZX1BgB-dzZZwpqOLnYcx
+debug: Product object:{"categories":[11,12,13],"_id":"5b6a99e61d6f3148f9459f62","product_name":"B","price":20,"total_quantity":50,"id":5,"__v":0} sessionId=C5GaFNrN8b9PZX1BgB-dzZZwpqOLnYcx
+debug: Input Data:{"product_name":"B","categories":"[14]","price":"20","total_quantity":"50","id":"5"} sessionId=C5GaFNrN8b9PZX1BgB-dzZZwpqOLnYcx
+debug: Input Data:{"id":"5","product_name":"B","price":"20","total_quantity":"50","categories":[14]} sessionId=C5GaFNrN8b9PZX1BgB-dzZZwpqOLnYcx
+debug: Product Data:{"categories":[11,12,13],"_id":"5b6a99e61d6f3148f9459f62","product_name":"B","price":20,"total_quantity":50,"id":5,"__v":0} sessionId=C5GaFNrN8b9PZX1BgB-dzZZwpqOLnYcx
+debug: Product object:{"categories":[11,12,13],"_id":"5b6a99e61d6f3148f9459f62","product_name":"B","price":20,"total_quantity":50,"id":5,"__v":0} sessionId=C5GaFNrN8b9PZX1BgB-dzZZwpqOLnYcx
+debug: Input Data:{"product_name":"B","categories":"[14]","price":"20","total_quantity":"50","id":"5"} sessionId=dSshXiVLzfK4mC4li5Za4Ra9JmnSPXqS
+debug: Input Data:{"id":"5","product_name":"B","price":"20","total_quantity":"50","categories":[14]} sessionId=dSshXiVLzfK4mC4li5Za4Ra9JmnSPXqS
+debug: Product Data:{"categories":[11,12,13],"_id":"5b6a99e61d6f3148f9459f62","product_name":"B","price":20,"total_quantity":50,"id":5,"__v":0} sessionId=dSshXiVLzfK4mC4li5Za4Ra9JmnSPXqS
+debug: inside categories:14 sessionId=dSshXiVLzfK4mC4li5Za4Ra9JmnSPXqS
+debug: Product object:{"categories":[11,12,13],"_id":"5b6a99e61d6f3148f9459f62","product_name":"B","price":20,"total_quantity":50,"id":5,"__v":0} sessionId=dSshXiVLzfK4mC4li5Za4Ra9JmnSPXqS
+debug: Input Data:{"product_name":"B","categories":"[14]","price":"20","total_quantity":"50","id":"5"} sessionId=Fg3xdZgcSLvZdnpkgJazHZQDikWnItYF
+debug: Input Data:{"id":"5","product_name":"B","price":"20","total_quantity":"50","categories":[14]} sessionId=Fg3xdZgcSLvZdnpkgJazHZQDikWnItYF
+debug: Product Data:{"categories":[11,12,13],"_id":"5b6a99e61d6f3148f9459f62","product_name":"B","price":20,"total_quantity":50,"id":5,"__v":0} sessionId=Fg3xdZgcSLvZdnpkgJazHZQDikWnItYF
+debug: inside categories:14 sessionId=Fg3xdZgcSLvZdnpkgJazHZQDikWnItYF
+debug: Product object:{"categories":[11,12,13,[14]],"_id":"5b6a99e61d6f3148f9459f62","product_name":"B","price":20,"total_quantity":50,"id":5,"__v":0} sessionId=Fg3xdZgcSLvZdnpkgJazHZQDikWnItYF
+debug: Input Data:{"product_name":"B","categories":"14","price":"20","total_quantity":"50","id":"5"} sessionId=Fg3xdZgcSLvZdnpkgJazHZQDikWnItYF
+debug: Input Data:{"id":"5","product_name":"B","price":"20","total_quantity":"50","categories":14} sessionId=Fg3xdZgcSLvZdnpkgJazHZQDikWnItYF
+debug: Product Data:{"categories":[11,12,13,[14]],"_id":"5b6a99e61d6f3148f9459f62","product_name":"B","price":20,"total_quantity":50,"id":5,"__v":1} sessionId=Fg3xdZgcSLvZdnpkgJazHZQDikWnItYF
+debug: inside categories:14 sessionId=Fg3xdZgcSLvZdnpkgJazHZQDikWnItYF
+debug: Product object:{"categories":[11,12,13,[14],14],"_id":"5b6a99e61d6f3148f9459f62","product_name":"B","price":20,"total_quantity":50,"id":5,"__v":1} sessionId=Fg3xdZgcSLvZdnpkgJazHZQDikWnItYF
+debug: Input Data:{"product_name":"B","categories":"[11,12,13]","price":"20","total_quantity":"50","id":"5","category_id":"14"} sessionId=sv6VIjacjVxW-mvhSaZ8rHnRZM6WgUG7
+debug: Input Data:{"id":"5","product_name":"B","price":"20","total_quantity":"50","categories":[11,12,13],"category_id":"14"} sessionId=sv6VIjacjVxW-mvhSaZ8rHnRZM6WgUG7
+debug: Product Data:{"categories":[11,12,13,[14],14],"_id":"5b6a99e61d6f3148f9459f62","product_name":"B","price":20,"total_quantity":50,"id":5,"__v":2} sessionId=sv6VIjacjVxW-mvhSaZ8rHnRZM6WgUG7
+debug: Product object:{"categories":[11,12,13,"14"],"_id":"5b6a99e61d6f3148f9459f62","product_name":"B","price":20,"total_quantity":50,"id":5,"__v":2} sessionId=sv6VIjacjVxW-mvhSaZ8rHnRZM6WgUG7
+debug: Input Data:{"product_name":"B","categories":"[11,12,13]","price":"20","total_quantity":"50","id":"5","category_id":"14"} sessionId=Nw1L30i4IBLfEy6ujqEkNdaoYxZB4b3J
+debug: Input Data:{"product_name":"B","categories":"[11,12,13]","price":"20","total_quantity":"50","id":"5","category_id":"14"} sessionId=FVZLpDm-9NqxJqMJ2Pw7w8aSbTZK9RK8
+debug: Input Data:{"id":"5","product_name":"B","price":"20","total_quantity":"50","categories":[11,12,13],"category_id":14} sessionId=FVZLpDm-9NqxJqMJ2Pw7w8aSbTZK9RK8
+debug: Product Data:{"categories":[11,12,13,"14"],"_id":"5b6a99e61d6f3148f9459f62","product_name":"B","price":20,"total_quantity":50,"id":5,"__v":3} sessionId=FVZLpDm-9NqxJqMJ2Pw7w8aSbTZK9RK8
+debug: Product object:{"categories":[11,12,13,14],"_id":"5b6a99e61d6f3148f9459f62","product_name":"B","price":20,"total_quantity":50,"id":5,"__v":3} sessionId=FVZLpDm-9NqxJqMJ2Pw7w8aSbTZK9RK8
+debug: Input Data:{"product_name":"B","categories":"[11,12,13]","price":"20","total_quantity":"50","id":"5","category_id":"15"} sessionId=FVZLpDm-9NqxJqMJ2Pw7w8aSbTZK9RK8
+debug: Input Data:{"id":"5","product_name":"B","price":"20","total_quantity":"50","categories":[11,12,13],"category_id":15} sessionId=FVZLpDm-9NqxJqMJ2Pw7w8aSbTZK9RK8
+debug: Product Data:{"categories":[11,12,13,14],"_id":"5b6a99e61d6f3148f9459f62","product_name":"B","price":20,"total_quantity":50,"id":5,"__v":4} sessionId=FVZLpDm-9NqxJqMJ2Pw7w8aSbTZK9RK8
+debug: Product object:{"categories":[11,12,13,15],"_id":"5b6a99e61d6f3148f9459f62","product_name":"B","price":20,"total_quantity":50,"id":5,"__v":4} sessionId=FVZLpDm-9NqxJqMJ2Pw7w8aSbTZK9RK8
+debug: Input Data:{"product_name":"A","categories":"[11,12,13]","price":"20","total_quantity":"100","id":"1","category_id":"15"} sessionId=FVZLpDm-9NqxJqMJ2Pw7w8aSbTZK9RK8
+debug: Input Data:{"id":"1","product_name":"A","price":"20","total_quantity":"100","categories":[11,12,13],"category_id":15} sessionId=FVZLpDm-9NqxJqMJ2Pw7w8aSbTZK9RK8
+debug: Product Data:{"categories":["{11,12,13}"],"_id":"5b6a972fbd075f453064a6da","product_name":"A","price":20,"total_quantity":100,"id":1,"__v":0} sessionId=FVZLpDm-9NqxJqMJ2Pw7w8aSbTZK9RK8
+debug: Product object:{"categories":[11,12,13,15],"_id":"5b6a972fbd075f453064a6da","product_name":"A","price":20,"total_quantity":100,"id":1,"__v":0} sessionId=FVZLpDm-9NqxJqMJ2Pw7w8aSbTZK9RK8
+debug: query :{"id":"1"} sessionId=FVZLpDm-9NqxJqMJ2Pw7w8aSbTZK9RK8
+debug: query :{"categories":{"$in":[11]}} sessionId=peeXB2ID7emr6wK2vXqi78lBj5N0MxmD
+debug: query :{"categories":{"$in":[11]}} sessionId=fFP4UiZtF8bFPsGx6UaoiVShP8aUbXb1
